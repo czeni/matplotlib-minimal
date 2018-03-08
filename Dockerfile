@@ -14,7 +14,7 @@ RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
     apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
             --update --no-cache py-numpy py-numpy-dev && \
 
-    apk add --update --no-cache build-base gfortran \
+    apk add --update --no-cache build-base gfortran libstdc++ \
                                 libpng libpng-dev \
                                 freetype freetype-dev && \
     # Make Python3 as default
