@@ -22,7 +22,7 @@ RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
     ln -fs /usr/bin/python3 /usr/local/bin/python && \
     ln -fs /usr/bin/pip3 /usr/local/bin/pip && \
     # Install Python dependencies
-    pip3 install --no-cache-dir matplotlib && \
+    pip3 install --no-cache-dir matplotlib==2.2 && \
     # Cleanup
     apk del --purge build-base gfortran libpng-dev freetype-dev \
                     python3-dev py-numpy-dev && \
