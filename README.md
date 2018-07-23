@@ -17,22 +17,21 @@ Matplotlib is compiled from source using Python pip tool.
 Matplotlib compiled with the following configuration:
 
 ```text
-Running command python setup.py egg_info
     ============================================================================
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-                matplotlib: yes [2.2.0]
-                    python: yes [3.6.4 (default, Mar  2 2018, 16:14:31)  [GCC
+                matplotlib: yes [2.2.2]
+                    python: yes [3.6.4 (default, Apr  6 2018, 05:23:32)  [GCC
                             6.4.0]]
                   platform: yes [linux]
 
     REQUIRED DEPENDENCIES AND EXTENSIONS
-                     numpy: yes [version 1.13.3]
+                     numpy: yes [version 1.14.3]
           install_requires: yes [handled by setuptools]
                     libagg: yes [pkg-config information for 'libagg' could not
                             be found. Using local copy.]
-                  freetype: yes [version 2.8.1]
+                  freetype: yes [version 2.9.1]
                        png: yes [version 1.6.34]
                      qhull: yes [pkg-config information for 'libqhull' could not
                             be found. Using local copy.]
