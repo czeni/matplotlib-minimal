@@ -1,13 +1,13 @@
 # Matplotlib 2.2 with Python3.6
 
-2018 March
+2018 July
 
 ### Description
 
 This repository provides a Dockerfile for building and image for Matplotlib 2.2.0
 with Python3.6.
 
-The Docker image is based on the latest Alpine Linux 3.7 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.8 for a minimum size 
 image(~135MB). It uses Alpine packages from main and community repos.
 
 Matplotlib is compiled from source using Python pip tool.
