@@ -7,6 +7,8 @@ MAINTAINER Janos Czentye <czentye@tmit.bme.hu>
 
 ENV LANG=C.UTF-8
 
+ARG MATPLOTLIB_VERSION=2.2.0
+
 # Build dependencies
 RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
             --update --no-cache python3 python3-dev && \
@@ -22,7 +24,7 @@ RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
     ln -fs /usr/bin/python3 /usr/local/bin/python && \
     ln -fs /usr/bin/pip3 /usr/local/bin/pip && \
     # Install Python dependencies
-    pip3 install -v --no-cache-dir matplotlib==2.2 && \
+    pip3 install -v --no-cache-dir matplotlib==$MATPLOTLIB_VERSION && \
     # Cleanup
     apk del --purge build-base gfortran libpng-dev freetype-dev \
                     python3-dev py-numpy-dev && \
