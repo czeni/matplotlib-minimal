@@ -1,14 +1,14 @@
-# Matplotlib 2.2.3 with Python3.6.7 on Alpine Linux 3.8.1
+# Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.1
 
 2018 November
 
 ### Description
 
-This repository provides a Dockerfile for building and image for Matplotlib 2.2.3
+This repository provides a Dockerfile for building and image for Matplotlib 3.0.2
 with Python3.6.7.
 
 The Docker image is based on the latest Alpine Linux 3.8.1 for a minimum size 
-image(~139MB). It uses Alpine packages from main and community repos.
+image(~140MB). It uses Alpine packages from main and community repos.
 
 Matplotlib is compiled from source using Python pip tool.
 
@@ -23,7 +23,7 @@ Matplotlib compiled with the following configuration:
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-                matplotlib: yes [2.2.3]
+                matplotlib: yes [3.0.2]
                     python: yes [3.6.7 (default, Nov  7 2018, 21:49:03)  [GCC
                             8.2.0]]
                   platform: yes [linux]
@@ -45,25 +45,11 @@ Matplotlib compiled with the following configuration:
             toolkits_tests: no  [skipping due to configuration]
 
     OPTIONAL BACKEND EXTENSIONS
-                    macosx: no  [Mac OS-X only]
-                    qt5agg: no  [PySide2 not found; PyQt5 not found]
-                    qt4agg: no  [PySide not found; PyQt4 not found]
-                   gtk3agg: no  [Requires pygobject to be installed.]
-                 gtk3cairo: no  [Requires cairocffi or pycairo to be installed.]
-                    gtkagg: no  [Requires pygtk]
+                       agg: yes [installing]
                      tkagg: yes [installing; run-time loading from Python Tcl /
                             Tk]
-                     wxagg: no  [requires wxPython]
-                       gtk: no  [Requires pygtk]
-                       agg: yes [installing]
-                     cairo: no  [cairocffi or pycairo not found]
+                    macosx: no  [Mac OS-X only]
                  windowing: no  [Microsoft Windows only]
-
-    OPTIONAL LATEX DEPENDENCIES
-                    dvipng: no
-               ghostscript: no
-                     latex: no
-                   pdftops: no
 
     OPTIONAL PACKAGE DATA
                       dlls: no  [skipping due to configuration]
