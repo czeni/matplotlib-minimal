@@ -1,16 +1,18 @@
-# Matplotlib 2.2.2 with Python3.6.7 on Alpine Linux 3.8.1
+# Matplotlib 2.2.3 with Python3.6.7 on Alpine Linux 3.8.1
 
 2018 November
 
 ### Description
 
-This repository provides a Dockerfile for building and image for Matplotlib 2.2.2
+This repository provides a Dockerfile for building and image for Matplotlib 2.2.3
 with Python3.6.7.
 
 The Docker image is based on the latest Alpine Linux 3.8.1 for a minimum size 
 image(~139MB). It uses Alpine packages from main and community repos.
 
 Matplotlib is compiled from source using Python pip tool.
+
+Older versions can be found under different tags.
 
 ### Configuration
 
@@ -21,7 +23,7 @@ Matplotlib compiled with the following configuration:
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-                matplotlib: yes [2.2.2]
+                matplotlib: yes [2.2.3]
                     python: yes [3.6.7 (default, Nov  7 2018, 21:49:03)  [GCC
                             8.2.0]]
                   platform: yes [linux]
