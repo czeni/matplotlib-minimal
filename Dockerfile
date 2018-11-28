@@ -3,10 +3,8 @@
 ################################################################################
 FROM alpine:3.8
 
-MAINTAINER Janos Czentye <czentye@tmit.bme.hu>
-
+LABEL MAINTAINER="Janos Czentye <czentye@tmit.bme.hu>"
 ENV LANG=C.UTF-8
-
 ARG MATPLOTLIB_VERSION=3.0.2
 
 # Build dependencies

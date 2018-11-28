@@ -58,3 +58,7 @@ Matplotlib compiled with the following configuration:
 ### Download
 
 To get the image use ``sudo docker pull czentye/matplotlib-minimal``
+
+### Run
+
+To run Python with Matplotlib use the following command ``sudo docker run -ti czentye/matplotlib-minimal python``
