@@ -1,6 +1,8 @@
-# Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.1
+# Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.2
 
-2018 November, HSNLab@BME
+Janos Czentye, HSNLab@BME
+
+2018 November
 
 ### Description
 
@@ -9,7 +11,7 @@ with Python3.6.7. Matplotlib is compiled from source using Python pip tool.
 
 https://github.com/matplotlib/matplotlib/releases
 
-The Docker image is based on the latest Alpine Linux 3.8.1 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.8.2 for a minimum size 
 image(~140MB). It uses Alpine packages from main and community repos.
 
 https://alpinelinux.org/
@@ -31,7 +33,7 @@ Matplotlib compiled with the following configuration:
                   platform: yes [linux]
 
     REQUIRED DEPENDENCIES AND EXTENSIONS
-                     numpy: yes [version 1.15.0]
+                     numpy: yes [version 1.15.4]
           install_requires: yes [handled by setuptools]
                     libagg: yes [pkg-config information for 'libagg' could not
                             be found. Using local copy.]
@@ -68,6 +70,4 @@ To run Python with Matplotlib use the following command ``sudo docker run -ti cz
 ### License
 
 Licensed under MIT license, see LICENSE file.
-
-    Copyright (c) 2018 János Czentye, <janos.czentye[X]tmit.bme.hu>
 
