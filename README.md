@@ -1,8 +1,8 @@
 # Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.2
 
-Janos Czentye, HSNLab@BME
+János Czentye, HSNLab@BME
 
-2018 November
+2018 December
 
 ### Description
 
