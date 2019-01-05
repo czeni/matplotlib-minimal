@@ -1,5 +1,9 @@
 # Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.2
 
+[![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
+[![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
+[![](https://img.shields.io/microbadger/image-size/czentye%2Fmatplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
+
 János Czentye, HSNLab@BME
 
 2018 December
