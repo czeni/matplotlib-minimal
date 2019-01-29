@@ -1,4 +1,4 @@
-# Matplotlib 3.0.2 with Python3.6.7 on Alpine Linux 3.8.2
+# Matplotlib 3.0.2 with Python 3.6.8 on Alpine Linux 3.8.2
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
@@ -6,12 +6,12 @@
 
 János Czentye, HSNLab@BME
 
-2018 December
+2019 January
 
 ### Description
 
 This repository provides a Dockerfile for building and image for Matplotlib 3.0.2
-with Python3.6.7. Matplotlib is compiled from source using Python pip tool.
+with Python3.6.8. Matplotlib is compiled from source using Python pip tool.
 
 https://github.com/matplotlib/matplotlib/releases
 
@@ -27,12 +27,13 @@ Older versions can be found under different tags.
 Matplotlib compiled with the following configuration:
 
 ```text
+    Running command python setup.py egg_info
     ============================================================================
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
                 matplotlib: yes [3.0.2]
-                    python: yes [3.6.7 (default, Nov  7 2018, 21:49:03)  [GCC
+                    python: yes [3.6.8 (default, Jan 24 2019, 16:36:39)  [GCC
                             8.2.0]]
                   platform: yes [linux]
 
