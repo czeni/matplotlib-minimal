@@ -1,4 +1,4 @@
-# Matplotlib 3.0.3 with Python 3.6.8 on Alpine Linux 3.9
+# Matplotlib 3.0.3 with Python 3.6.8 on Alpine Linux 3.9.2
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
@@ -16,7 +16,7 @@ repository version: https://pypi.org/project/matplotlib/
 
 https://github.com/matplotlib/matplotlib/releases
 
-The Docker image is based on the latest Alpine Linux 3.9 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.9.2 for a minimum size 
 image(~140MB). It uses Alpine packages from main and community repos.
 
 https://alpinelinux.org/
@@ -28,8 +28,6 @@ Older versions can be found under different tags.
 Matplotlib compiled with the following configuration:
 
 ```text
-    Running command python setup.py egg_info
-    ============================================================================
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
