@@ -2,14 +2,14 @@
 
 Janos Czentye, HSNLab@BME
 
-2019 March
+2019 April
 
 ### Description
 
 This repository provides a Dockerfile for building and image for Matplotlib 2.2.4
 with Python3.6.8.
 
-The Docker image is based on the latest Alpine Linux 3.9.2 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.9.3 for a minimum size 
 image(~139MB). It uses Alpine packages from main and community repos.
 
 Matplotlib is compiled from source using Python pip tool.
