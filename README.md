@@ -6,7 +6,7 @@
 
 János Czentye, HSNLab@BME
 
-2019 March
+2019 April
 
 ### Description
 
@@ -16,7 +16,7 @@ repository version: https://pypi.org/project/matplotlib/
 
 https://github.com/matplotlib/matplotlib/releases
 
-The Docker image is based on the latest Alpine Linux 3.9.2 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.9.3 for a minimum size 
 image(~140MB). It uses Alpine packages from main and community repos.
 
 https://alpinelinux.org/
