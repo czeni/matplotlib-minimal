@@ -1,4 +1,4 @@
-# Matplotlib 3.0.3 with Python 3.6.8 on Alpine Linux 3.9.2
+# Matplotlib 3.0.3 with Python 3.7.3 on Alpine Linux 3.9.3
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
@@ -11,12 +11,12 @@ János Czentye, HSNLab@BME
 ### Description
 
 This repository provides a Dockerfile for building and image for Matplotlib 3.0.3
-with Python3.6.8. Matplotlib is compiled from source using Python pip tool and PyPI
+with Python3.7. Matplotlib is compiled from source using Python pip tool and PyPI
 repository version: https://pypi.org/project/matplotlib/
 
 https://github.com/matplotlib/matplotlib/releases
 
-The Docker image is based on the latest Alpine Linux 3.9.3 for a minimum size 
+The Docker image is based on the latest Alpine Linux 3.9 for a minimum size 
 image(~140MB). It uses Alpine packages from main and community repos.
 
 https://alpinelinux.org/
@@ -28,12 +28,12 @@ Older versions can be found under different tags.
 Matplotlib compiled with the following configuration:
 
 ```text
-    Edit setup.cfg to change the build options
+Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
                 matplotlib: yes [3.0.3]
-                    python: yes [3.6.8 (default, Jan 24 2019, 16:36:39)  [GCC
-                            8.2.0]]
+                    python: yes [3.7.3 (default, Apr 17 2019, 11:48:37)  [GCC
+                            8.3.0]]
                   platform: yes [linux]
 
     REQUIRED DEPENDENCIES AND EXTENSIONS
@@ -41,7 +41,7 @@ Matplotlib compiled with the following configuration:
           install_requires: yes [handled by setuptools]
                     libagg: yes [pkg-config information for 'libagg' could not
                             be found. Using local copy.]
-                  freetype: yes [version 2.9.1]
+                  freetype: yes [version 2.10.0]
                        png: yes [version 1.6.35]
                      qhull: yes [pkg-config information for 'libqhull' could not
                             be found. Using local copy.]
