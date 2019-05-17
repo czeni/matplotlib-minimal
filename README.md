@@ -1,4 +1,4 @@
-# Matplotlib 3.0.3 with Python 3.7.3 on Alpine Linux 3.9.3
+# Matplotlib 3.0.3 with Python 3.7.3 on Alpine Linux 3.9.4
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
@@ -6,7 +6,7 @@
 
 János Czentye, HSNLab@BME
 
-2019 April
+2019 May
 
 ### Description
 
@@ -28,7 +28,7 @@ Older versions can be found under different tags.
 Matplotlib compiled with the following configuration:
 
 ```text
-Edit setup.cfg to change the build options
+    Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
                 matplotlib: yes [3.0.3]
@@ -37,12 +37,12 @@ Edit setup.cfg to change the build options
                   platform: yes [linux]
 
     REQUIRED DEPENDENCIES AND EXTENSIONS
-                     numpy: yes [version 1.16.2]
+                     numpy: yes [version 1.16.3]
           install_requires: yes [handled by setuptools]
                     libagg: yes [pkg-config information for 'libagg' could not
                             be found. Using local copy.]
                   freetype: yes [version 2.10.0]
-                       png: yes [version 1.6.35]
+                       png: yes [version 1.6.37]
                      qhull: yes [pkg-config information for 'libqhull' could not
                             be found. Using local copy.]
 
@@ -61,6 +61,7 @@ Edit setup.cfg to change the build options
 
     OPTIONAL PACKAGE DATA
                       dlls: no  [skipping due to configuration]
+
 ```
 
 ### Download
