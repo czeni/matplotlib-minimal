@@ -5,7 +5,7 @@ FROM alpine:3.9.4
 
 LABEL MAINTAINER="Janos Czentye <czentye@tmit.bme.hu>"
 ENV LANG=C.UTF-8
-ARG MATPLOTLIB_VERSION=3.0.3
+ARG MATPLOTLIB_VERSION=3.1.0
 
 # Build dependencies
 RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \

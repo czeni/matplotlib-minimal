@@ -10,7 +10,7 @@ János Czentye, HSNLab@BME
 
 ### Description
 
-This repository provides a Dockerfile for building and image for Matplotlib 3.0.3
+This repository provides a Dockerfile for building and image for Matplotlib 3.1.0
 with Python3.7. Matplotlib is compiled from source using Python pip tool and PyPI
 repository version: https://pypi.org/project/matplotlib/
 
