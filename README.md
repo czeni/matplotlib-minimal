@@ -31,9 +31,8 @@ Matplotlib compiled with the following configuration:
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-                matplotlib: yes [3.0.3]
-                    python: yes [3.7.3 (default, Apr 17 2019, 11:48:37)  [GCC
-                            8.3.0]]
+                matplotlib: yes [3.1.0]
+                    python: yes [3.7.3 (default, Apr 17 2019, 11:48:37) [GCC 8.3.0]]
                   platform: yes [linux]
 
     REQUIRED DEPENDENCIES AND EXTENSIONS
