@@ -1,4 +1,4 @@
-# Matplotlib 3.0.3 with Python 3.7.3 on Alpine Linux 3.9.4
+# Matplotlib 3.1.0 with Python 3.7.3 on Alpine Linux 3.9.4
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
