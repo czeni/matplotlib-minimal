@@ -31,37 +31,21 @@ Matplotlib compiled with the following configuration:
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-                matplotlib: yes [3.0.3]
-                    python: yes [3.7.3 (default, Apr 17 2019, 11:48:37)  [GCC
-                            8.3.0]]
-                  platform: yes [linux]
-
-    REQUIRED DEPENDENCIES AND EXTENSIONS
-                     numpy: yes [version 1.16.3]
-          install_requires: yes [handled by setuptools]
-                    libagg: yes [pkg-config information for 'libagg' could not
-                            be found. Using local copy.]
-                  freetype: yes [version 2.10.0]
-                       png: yes [version 1.6.37]
-                     qhull: yes [pkg-config information for 'libqhull' could not
-                            be found. Using local copy.]
+      matplotlib: yes [3.1.0]
+          python: yes [3.7.3 (default, Apr 17 2019, 11:48:37)  [GCC 8.3.0]]
+        platform: yes [linux]
 
     OPTIONAL SUBPACKAGES
-               sample_data: yes [installing]
-                  toolkits: yes [installing]
-                     tests: no  [skipping due to configuration]
-            toolkits_tests: no  [skipping due to configuration]
+     sample_data: yes [installing]
+           tests: no  [skipping due to configuration]
 
     OPTIONAL BACKEND EXTENSIONS
-                       agg: yes [installing]
-                     tkagg: yes [installing; run-time loading from Python Tcl /
-                            Tk]
-                    macosx: no  [Mac OS-X only]
-                 windowing: no  [Microsoft Windows only]
+             agg: yes [installing]
+           tkagg: yes [installing; run-time loading from Python Tcl/Tk]
+          macosx: no  [Mac OS-X only]
 
     OPTIONAL PACKAGE DATA
-                      dlls: no  [skipping due to configuration]
-
+            dlls: no  [skipping due to configuration]
 ```
 
 ### Download
