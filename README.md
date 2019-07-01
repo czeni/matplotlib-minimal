@@ -31,9 +31,19 @@ Matplotlib compiled with the following configuration:
     Edit setup.cfg to change the build options
 
     BUILDING MATPLOTLIB
-      matplotlib: yes [3.1.0]
-          python: yes [3.7.3 (default, Apr 17 2019, 11:48:37)  [GCC 8.3.0]]
-        platform: yes [linux]
+                matplotlib: yes [3.1.0]
+                    python: yes [3.7.3 (default, Apr 17 2019, 11:48:37) [GCC 8.3.0]]
+                  platform: yes [linux]
+
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.16.3]
+          install_requires: yes [handled by setuptools]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 2.10.0]
+                       png: yes [version 1.6.37]
+                     qhull: yes [pkg-config information for 'libqhull' could not
+                            be found. Using local copy.]
 
     OPTIONAL SUBPACKAGES
      sample_data: yes [installing]
