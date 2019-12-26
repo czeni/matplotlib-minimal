@@ -1,11 +1,11 @@
 ################################################################################
 ##    Dockerfile to build minimal Matplotlib image with Python3 and Numpy     ##
 ################################################################################
-FROM alpine:3.10.0
+FROM alpine:3.10
 
 LABEL MAINTAINER="Janos Czentye <czentye@tmit.bme.hu>"
 ENV LANG=C.UTF-8
-ARG MATPLOTLIB_VERSION=3.1.1
+ARG MATPLOTLIB_VERSION=3.1.2
 
 # Build dependencies
 RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \

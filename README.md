@@ -1,4 +1,4 @@
-# Matplotlib 3.1.1 with Python 3.7 on Alpine Linux 3.10
+# Matplotlib 3.1.2 with Python 3.8 on Alpine Linux 3.10
 
 [![](https://img.shields.io/docker/build/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
 [![](https://img.shields.io/docker/pulls/czentye/matplotlib-minimal.svg?style=popout)](https://hub.docker.com/r/czentye/matplotlib-minimal)
@@ -6,12 +6,12 @@
 
 János Czentye, HSNLab@BME
 
-2019 July
+2019 December
 
 ### Description
 
-This repository provides a Dockerfile for building and image for Matplotlib 3.1.1
-with Python3.7. Matplotlib is compiled from source using Python pip tool and PyPI
+This repository provides a Dockerfile for building and image for Matplotlib 3.1.2
+with Python3.8. Matplotlib is compiled from source using Python pip tool and PyPI
 repository version: https://pypi.org/project/matplotlib/
 
 https://github.com/matplotlib/matplotlib/releases
@@ -69,4 +69,3 @@ To run Python with Matplotlib use the following command ``sudo docker run -ti cz
 ### License
 
 Licensed under MIT license, see LICENSE file.
-
