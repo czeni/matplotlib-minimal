@@ -27,5 +27,6 @@ RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
     pip3 install -v --no-cache-dir matplotlib==$MATPLOTLIB_VERSION && \
     # Cleanup
     apk del --purge build-base libgfortran libpng-dev freetype-dev \
-                    python3-dev py-numpy-dev && \
+                    python3-dev && \
+                    # py-numpy-dev && \
     rm -vrf /var/cache/apk/*
